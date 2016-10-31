@@ -3,16 +3,15 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+  <div class="content-header">
+    <div class="circle-photo">
+      <img src="images/me.jpg"></img>
+   	</div>
+   	<div class="greeting-text">
+      <p>Hello, I am <span class="text-sbold">Hafidz Jazuli Luthfi</span> !</p>
+   	</div>
+  </div>
+  <div class="content-body">
+    <p>Iam <span class="text-underline">Web Programmer and Designer</span>, <span class="text-underline">API Programmer</span>, <span class="text-underline">Web Scraping Specialist</span> and <span class="text-underlines">Hacker</span>. At the backend, i love to use <span class="text-underline">PHP</span>, <span class="text-underline">MySQL</span> and <span class="text-underline">Apache</span>. Capable to build <span class="text-underline">Information System</span> based on the clear and detailed analysist using <span class="text-underline">Yii Framework</span>. Passionate to buil <span class="text-underline">Web API</span> with extraordinary pattern and design. Love the beauty of code of <span class="text-underline">Python</span> and near machine, <span class="text-underline">C</span>. A newcomer in <span class="text-underline">Web Scraping</span> world using <span class="text-underline">Scrapy</span>, <span class="text-underline">CURL</span> and <span class="text-underline">Goutte</span></p>
+  </div>
 </div>

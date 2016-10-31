@@ -1,0 +1,28 @@
+{
+  "name": "bladefidz.github.io",
+  "homepage": "bladefidz.github.io",
+  "authors": [
+    "bladefidz <github.com/bladefidz>",
+    "hafidz jazuli <hafidzjazuli@gmail.com>"
+  ],
+  "description": "The bladefidz as hafidz jazuli github page",
+  "main": "index.html",
+  "keywords": [
+    "bladefidz github page",
+    "hafidz jazuli github page",
+    "bladefidz",
+    "hafidz jazuli"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mdi": "^1.7.22"
+  }
+}
