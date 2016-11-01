@@ -309,6 +309,51 @@ footer {
 
 
 /*********************/
+/* BOX SECTION */
+/*********************/
+
+//
+// text
+//
+
+div.box-inline {
+    display: inline-block;
+}
+
+div.img-box {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+div.img-box:hover {
+    border: 1px solid #777;
+}
+
+div.img-box img {
+    width: 100%;
+    height: auto;
+}
+
+div.img-box-desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 12pt;
+
+    p.title {
+      padding-bottom: 4px;
+      border-bottom: 1px solid #777;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    p.desc {
+
+    }
+}
+
+
+/*********************/
 /* COSTUM SECTION */
 /*********************/
 
