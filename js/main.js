@@ -23,3 +23,38 @@ function setAtcive(id) {
 		document.getElementById("home").classList.add("active"); // Else, activate "Home" menu
 	}
 }
+
+// Show by tag
+function showPostbyTag(element, tag) {
+	// console.log(tag);
+
+	boxes = document.getElementsByClassName('img-box');
+
+	if (tag === '') {
+		for (var i = 0; i < boxes.length; i++) {
+			boxes[i].style.display = "block";
+		}
+		return;
+	}
+
+	for (var i = 0; i < boxes.length; i++) {
+		tags = boxes[i].childNodes[3].childNodes[5].textContent.trim()
+		tags = tags.split(" ");
+
+		// console.log(tags);
+
+		let matched = false;
+		for (var j = 0; j < tags.length; j++) {
+			if (tags[j] == tag) {
+				matched = true;
+				break;
+			}
+		}
+
+		if (matched) {
+			boxes[i].style.display = "block";
+		} else {
+			boxes[i].style.display = "none";
+		}
+	}
+}

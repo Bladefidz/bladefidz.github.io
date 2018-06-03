@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -306,6 +307,11 @@ nav {
   color: blue
 }
 
+.tags-button {
+  position: sticky;
+  margin-bottom: 10px;
+}
+
 .wrapper-footer {
   margin-top: 30px;
 }
@@ -362,6 +368,32 @@ div.img-box-desc {
     p.desc {
 
     }
+}
+
+
+/*********************/
+/* BUTTON SECTION */
+/*********************/
+
+.btn-group button {
+  border: 1px solid black; /* Green border */
+  padding: 10px 24px; /* Some padding */
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: black;
+  color: white; /* White text */
 }
 
 
