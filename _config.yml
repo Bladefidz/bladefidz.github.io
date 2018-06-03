@@ -50,7 +50,7 @@ markdown: kramdown
 theme: minima
 lsi: false
 safe: true
-source: "D:\\Github\\bladefidz.github.io"
+source: "/home/bladefidz/Codes/bladefidz.github.io"
 incremental: false
 highlighter: rouge
 
