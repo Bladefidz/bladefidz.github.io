@@ -24,7 +24,8 @@ layout: default
        Community Graph
       </p>
       <p class="desc">
-        A community network detection from <a href="https://snap.stanford.edu/data/egonets-Facebook.html">facebook ego dataset</a>. Built using <a href="https://networkx.github.io/">networkx library</a>.
+        This is Community Network Graph of <a href="https://snap.stanford.edu/data/egonets-Facebook.html">facebook dataset</a> generated using a <a href="https://github.com/taynaud/python-louvain">coommunity detection algorithm developed by Thomas Aynaud</a>. The dataset contains 4039 nodes and 88234 edges. Undirected graph used to represent friendship between person. Node degree may represent person charm. By measure nodes density, we want to reveal any social group or community.<br>
+        As we can see, there were at least seven communities formed from facebook dataset. All communities defined by their density. Furthermore, some communities tend to make isolation from major cluster. Some isolated communities may only communicate to major cluster through only one person. We call this kind of person as broker.
       </p>
       <p class="tags">
         #data-visualization
@@ -40,7 +41,9 @@ layout: default
        GISS Surface Temperature Analysis (GISTEMP) Visualization
       </p>
       <p class="desc">
-        Visualization of earth surface temperatures using <a href="https://data.giss.nasa.gov/gistemp/">NASA dataset</a>. Built on Matplotlib.
+        Ever wonder why many countries above equator such as China and India have been suffered hot temperature?<br>
+        This graph my answer your question.<br>
+        Built using Matplotlib. Data taken from: <a href="https://data.giss.nasa.gov/gistemp/">NASA</a>
       </p>
       <p class="tags">
         #data-visualization
@@ -56,7 +59,8 @@ layout: default
        Anomaly Detection
       </p>
       <p class="desc">
-        Using Gaussian Distribution Estimation to detect anomalous behavior in server computers.
+        Using Gaussian Distribution Estimation to detect anomalous behavior in server computers. All normal server behaviors placed in the middle of contours, while all abnormal server behaviors placed far from the middle of contours.<br>
+        <a href="https://github.com/Bladefidz/machine-learning/blob/master/coursera/machine-learning-standford-univerity/machine-learning-ex8/ex8/ex8data1.mat">A dataset</a> contains thousand of server behavior and consists eleven features. But in this case, I only used two features: throughput (mb/s) and latency (ms). Intuitively, we expect that data contains so many normal server behaviors, but small abnormal server behaviors. So, based on that estimation, I used gaussian distribution model all servers behaviors. An image above visualize Gaussian distribution contours.
       </p>
       <p class="tags">
         #machine-learning
@@ -72,7 +76,7 @@ layout: default
        Neural Network for Number Handwriting Identification
       </p>
       <p class="desc">
-        Use Octave and linear algebra to construct neural network architecture.
+        Use Octave and linear algebra to construct neural network architecture for number handwriting identification.
       </p>
       <p class="tags">
         #machine-learning
